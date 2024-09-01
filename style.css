@@ -1,0 +1,48 @@
+.container{
+    background:linear-gradient(rgb(79, 79, 219) ,rgb(226, 70, 70) , rgb(93, 224, 93));
+    height: 500px;
+    width: 300px
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+    font-family: cursive;
+}
+.mx-auto{
+    margin: auto;
+}
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 60px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.flex-col{
+    flex-direction: column;
+}
+.row{
+    margin: 7px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row input{
+    font-size: 20px;
+    margin: 0;
+    padding: 9px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 250px;
+
+}
